@@ -8,3 +8,8 @@ Console.WriteLine("==============================================Queue==========
 Console.WriteLine("==============================================Cirlcle Queue==============================================");
 //Implement  https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1366/
 (new CircleQueue()).Run();
+
+
+Console.WriteLine("==============================================BFS Queue==============================================");
+//Implement  https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1366/
+(new BFSQueue()).Run();
