@@ -1,7 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using ProblemSolving.PriorityQueue;
 using ProblemSolving.QueueAndStack;
 using ProblemSolving.QueueAndStack.Stack;
 
+Console.WriteLine("==============================================Queue==============================================");
+//Implement  https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1366/
+(new LevelOrderTraversal()).Run();
+(new LevelOrderTraversal()).Run2();
 Console.WriteLine("==============================================Queue==============================================");
 //Implement  https://leetcode.com/explore/learn/card/queue-stack/228/first-in-first-out-data-structure/1366/
 (new QueueImplementation<int>()).Run();
